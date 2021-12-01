@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header { 
+    background-color: #252323;
+    width: 100%;
+    box-shadow: 1px 1px 10px 4px;
+}
+
+.center { 
+    width: 980px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.menu { 
+    display: flex;
+
+}
+.logo { 
+    width: 800px;
+    padding: 10px;
+}
+.menu-single {
+    padding: 10px;
+    border: 1px;
+}
+
+.nav-single:hover { 
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+.nav-bar { 
+    display: flex;
+    width: 800px;
+}
+.nav-single { 
+    padding: 20px 8px;
+    text-transform: uppercase;
+    color: grey;
+    margin-top: 15px;
+    border: 1px;
+}
+
+.pesquisa { 
+    margin-top: 20px;
+    display: flex;
+}
+.pesquisa button { 
+    padding: 14px 25px;
+    background-color: white;
+    color: grey;
+    border: grey 1px solid;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 190px;
+    
+}
+button i {
+     margin-left: 10px;
+}
+
+.slider-principal img { 
+    width: 100%;
+    margin-top: 10px;
+    display: inline;
+}
+
+.slider-principal h1 { 
+    display: inline;
+}
